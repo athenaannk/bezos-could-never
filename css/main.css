@@ -1,0 +1,88 @@
+body, html {
+    font-family:' Open Sans', sans-serif;
+   
+  
+
+}
+button {
+    background-color: #F3CB6D;
+    text-align: center;
+    border-radius: 4px;
+    width: 45px;
+    height: 30px;
+    font-size: xx-small;
+   
+}
+
+.card-title {
+    font-weight:525;
+}
+h6 {
+    font-size: xx-small;
+    font-weight: 900
+   
+}
+
+
+.help {
+    font-size: xx-small;
+    text-decoration: none;
+}
+
+.text-muted {
+    font-size: 7.5px;
+    font-weight:550;
+}
+
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    margin: auto;
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+ .footer-container {
+    font-size: 7.5px;
+    text-decoration: none;
+    width: 40%;
+    padding: 45px;
+   
+   
+ }
+
+ .copyright {
+    font-size: 7px;
+    font-weight: 400;
+    color: rgb(50, 50, 50)
+ }
+
+ footer{
+    background-color: #FEFEFE;
+ }
+
+ h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-size: 9px;
+    color: darkgray
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+     
+ }
+
+.amazon{
+    text-align: center;
+}
+
