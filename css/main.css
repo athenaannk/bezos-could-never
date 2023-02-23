@@ -40,6 +40,7 @@ h1 {
     text-align: center;
     color: rgb(137, 137, 137);
     font-size: small
+    
 }
 
 h1 span {
@@ -47,6 +48,7 @@ h1 span {
     padding: 0 10px;
     position: relative;
     z-index: 1;
+    
     
 }
 
@@ -56,8 +58,9 @@ h1:before {
     height: 1px;
     position: absolute;
     top: 50%;
-    width: calc(100% + 50px);
-    left: -25px;
+    width: calc(13% + 50px);
+    left: 750px;
+    
 }
 
  .footer-container {
@@ -80,20 +83,19 @@ h1:before {
 
  }
 
-
-.amazon{
-    text-align: center;
-}
-
 .text-center {
     font-size: 10px;
    
 }
 
-#create {
-    border-radius: 3px;
-    width: 45px;
-    height: 30px;
+
+#amazon {
+    text-align: center;
+    font-size: xx-large;
+
 }
 
-
+#create {
+    border-radius: 4px;
+   
+}

@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prime Time</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/17fd23e138.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Time</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/17fd23e138.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <div>
-        <h5 class="amazon">amazon</h5>
+    <div class="container-fluid bg-white pt-5 pb-5 mb-5">
+        <p id="amazon" class="text-center">amazon</p>
         <div class="card mx-auto" style="width: 18rem;">
             <div class="card-body">
-            <h5 class="card-title">Sign in</h5>
-            <h6 class="card-subtitle mb-1 mt-3" >Email or mobile phone number</h6>
-            <input class="form-control form-control-sm" type="text">              
-            <button type="button" class="w-100 mt-3 p-2 mb-3 border border-light-subtle" id="cont">Continue</button>
-            <p class="text-muted"> By continuing, you agree with Amazon's <a href="#" class="link-primary">Conditions of Use</a> & <a href="#" class="link-primary">Privacy Notice</a></p>    
-            <i id="play" class="fa-sharp fa-solid fa-play fa-2xs"></i><a href="#" class="help"> Need help?</a>
+                <h5 class="card-title">Sign in</h5>
+                <h6 class="card-subtitle mb-1 mt-3">Email or mobile phone number</h6>
+                <input class="form-control form-control-sm" type="text">
+                <button type="button" class="w-100 mt-3 p-2 mb-3 border border-light-subtle" id="cont">Continue</button>
+                <p class="text-muted"> By continuing, you agree with Amazon's <a href="#"
+                        class="link-primary">Conditions of Use</a> & <a href="#" class="link-primary">Privacy
+                        Notice</a></p>
+                <i id="play" class="fa-sharp fa-solid fa-play fa-2xs"></i><a href="#" class="help"> Need
+                    help?</a>
             </div>
         </div>
-    </div>
+            <div class="row align-items-center">
+                <div class="col ">
+                    <div class="row" style="text-align:center">
+                        <h1>
+                            <span>New to Amazon?</span>
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <div class="text-center">
+                            <button type="button" class="w-20 border border-dark" id=create>Create your Amazon
+                                account</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
 </body>
-<div style="text-align:center"> 
-    <h1>
-        <span >New to Amazon?</span>
-    </h1> 
-</div> 
-<div class="text-center">
-    <button type="button" class="w-25 mt-3 p-2 mb-2 border border-dark"id=create>Create your Amazon account</button>
-</div>
 <footer>
     <div class="footer-container text-center mx-auto">
-        <div class="row text-decoration-none">
-          <div class="col text-decoration-none">
-            <p class="text-decoration-none"></p><a href="#">Conditions of Use</a></p>
+        <div class="row">
+            <div class="col">
+                <a class="text-decoration-none" href="#">Conditions of Use</a>
             </div>
-          <div class="col text-decoration-none">
-            <a href="#">Privacy Notice</a>
+            <div class="col text-decoration-none">
+                <a class="text-decoration-none" href="#">Privacy Notice</a>
             </div>
-          <div class="col text-decoration-none">
-            <a href="#">Help</a>
+            <div class="col">
+                <a class="text-decoration-none" href="#">Help</a>
             </div>
         </div>
-        <div class="row text-decoration-none">
-            <div class="col text-decoration-none">
-            <h6 class="copyright mt-3">&copy 1996-2023, Amazon.com, Inc. or its affiliates</h6>
-          </div>
+        <div class="row">
+            <div class="col">
+                <h6 class="copyright mt-3">&copy 1996-2023, Amazon.com, Inc. or its affiliates</h6>
+            </div>
+        </div>
     </div>
-        
