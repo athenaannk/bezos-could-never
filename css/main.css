@@ -4,7 +4,7 @@ body, html {
   
 
 }
-button {
+#cont {
     background-color: #F3CB6D;
     text-align: center;
     border-radius: 4px;
@@ -15,12 +15,13 @@ button {
 }
 
 .card-title {
+    font-size: x-large;
     font-weight:525;
 }
+
 h6 {
-    font-size: xx-small;
-    font-weight: 900
-   
+    font-size: small;
+    font-weight: 600;
 }
 
 
@@ -33,56 +34,66 @@ h6 {
     font-size: 7.5px;
     font-weight:550;
 }
+h1 {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: rgb(137, 137, 137);
+    font-size: small
+}
 
-h2 {
-    width: 100%; 
-    text-align: center; 
-    border-bottom: 1px solid lightgray; 
-    line-height: 0.1em;
-    margin: auto;
- } 
- 
- h2 span { 
-     background:#fff; 
-     padding:0 10px; 
- }
+h1 span {
+    background: #fff;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+h1:before {
+    background: #ddd;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: calc(100% + 50px);
+    left: -25px;
+}
 
  .footer-container {
-    font-size: 7.5px;
+    font-size: 11px;
     text-decoration: none;
     width: 40%;
-    padding: 45px;
+    padding: 40px;
    
    
  }
 
  .copyright {
-    font-size: 7px;
+    font-size: 11px;
     font-weight: 400;
     color: rgb(50, 50, 50)
  }
 
  footer{
-    background-color: #FEFEFE;
+    background-color: rgb(247, 247, 247)
+
  }
 
- h2 {
-    width: 100%; 
-    text-align: center; 
-    border-bottom: 1px solid lightgray; 
-    line-height: 0.1em;
-    margin: 10px 0 20px; 
-    font-size: 9px;
-    color: darkgray
- } 
- 
- h2 span { 
-     background:#fff; 
-     padding:0 10px; 
-     
- }
 
 .amazon{
     text-align: center;
 }
+
+.text-center {
+    font-size: 10px;
+   
+}
+
+#create {
+    border-radius: 3px;
+    width: 45px;
+    height: 30px;
+}
+
 
